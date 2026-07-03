@@ -1,0 +1,24 @@
+# --- Datos sensibles: NUNCA subir (PII de personas en movilidad humana, incluye NNA) ---
+*.xlsx
+*.xls
+*.csv
+*.cache.pkl
+*.pkl
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- SO / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
